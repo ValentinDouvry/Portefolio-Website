@@ -1,0 +1,172 @@
+body, html{
+    height: 100%;
+}
+
+.sidenav-image{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*** Boutons pour ouvrir/fermer le sidenav ***/
+#sidenav-button-open{
+    margin-left: 10px;
+    font-size: 40px;
+    color: white;
+    /* animation: wobble-hor-bottom 800ms 2; */
+}
+#sidenav-button-close{
+    font-size: 40px;
+    color: white;
+}
+/*****************************************************************************************************/
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere2.jpg');
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-container{
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text-home{
+    animation: tracking-in-expand-fwd-top 800ms;
+}
+
+/*** Sidenav ***/
+.sidenav{
+    background-color: #232323;
+}
+
+.sidenav-logo-container{
+    margin: auto;
+    width: 100%;
+    text-align:center;
+}
+
+.sidenav-logo{
+    margin: 5px;
+    width: 30px;
+}
+.divider{
+    background-color: #212121;
+}
+.sidenav-button-container{
+    
+    width: 60%;
+    margin: auto;
+}
+.sidenav-button-container a{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #2b2c2d;
+}
+.btn-sidenav:hover{
+    background-color: #007acc !important;
+}
+/*****************************************************************************************************/
+
+.page-footer{
+    /* background-color: #7395AE; */
+    background-color: #474B4F;
+}
+
+
+.content-container{
+    background-color: #232323;
+}
+
+.card{
+    animation: slide-in-top 800ms;
+    background-color: #2b2c2d;
+}
+
+.card-title{
+    color: white !important;
+    font-weight: bold;
+}
+
+.card-content p{
+    color: #ce9178;
+}
+.card-action a{
+    color: #007acc !important;
+}
+
+#title-Mushrooms
+{
+    font-family: fontMushrooms;
+}
+
+.project-h3
+{
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+.project-title{
+    text-align: center;
+    margin: 0px;
+}
+
+.row{
+    margin-bottom: 0px;
+}
+
+
+.project-description{
+    margin: 0px;
+    padding: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+
+@keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+
+@keyframes wobble-hor-bottom{0%,100%{transform:translateX(0);transform-origin:50% 50%}15%{transform:translateX(-30px) rotate(-6deg)}30%{transform:translateX(15px) rotate(6deg)}45%{transform:translateX(-15px) rotate(-3.6deg)}60%{transform:translateX(9px) rotate(2.4deg)}75%{transform:translateX(-6px) rotate(-1.2deg)}}
+@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+@font-face {
+    font-family: fontMushrooms;
+    src: url(../fonts/Jeg-Elsker-Dig.ttf);
+}
+
+
+/*** Arrows for carousel ***/
+.middle-indicator{
+position:absolute;
+top:50%;
+}
+.middle-indicator-text{
+font-size: 4.2rem;
+}
+a.middle-indicator-text{
+    color:white !important;
+}
+.content-indicator{
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; 
+}
+/*     .indicators{
+    visibility: hidden;
+} */
+
+/*****************************************************************************************************/
