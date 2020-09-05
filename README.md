@@ -5,4 +5,4 @@ Le site ne regroupe pas tous mes projets, mais seulement ceux que je considère 
 
 Le site est encore en cours de production (les articles des différents projets ne sont pas encore rédigés, les images des différents projets ne sont pas encore toutes disponibles, le nom de domaine n'est pas encore acheté/configuré).
 
-Le site est pour l'instant disponible à l'adresse suivante : 51.222.25.208/Portefolio-Website/
+Le site est pour l'instant disponible à l'adresse suivante : http://51.222.25.208/Portefolio-Website/
